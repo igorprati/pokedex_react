@@ -1,7 +1,9 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
-import Info from './Components/Info/Info';
-import CardList from './Components/CardList/CardList';
-import './Styles/main.css';
+import Info from './Components/Info';
+import CardList from './Components/CardList';
+import About from './Components/About';
+import Type from './Components/Type';
+import './Styles/main.scss';
 
 export default function App() {
 
@@ -10,7 +12,9 @@ export default function App() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact={true} component={CardList} />
-          <Route path="/sobre/:id" component={Info} />
+          <Route path="/info/:id" component={Info} />
+          <Route path="/about" component={About} />
+          <Route path='/type/:id' component={Type}></Route>
         </Switch>
       </BrowserRouter>
     </div>
