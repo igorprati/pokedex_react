@@ -403,8 +403,10 @@ body {
 
     &__container {
       width: 60%;
-      margin: 0 auto;
-      padding: 1rem 0;
+      margin: 20px auto;
+      padding: 1rem 5rem;
+      border-radius: 2rem;
+      background-color: white;
     }
 
     h2 {
