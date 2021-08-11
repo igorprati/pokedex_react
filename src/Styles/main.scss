@@ -468,4 +468,36 @@ body {
       background-color: #78c282;
     }
   }
+
+  .damage{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+
+
+    &__list{
+      background-color: white;
+      margin: 0.5rem;
+      padding: 2rem;
+      border-radius: 1rem;
+
+      h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+      }
+      h2{
+        font-size: 18px;
+        font-weight: 300;
+        color: white;
+        display: inline;
+        margin-right: 10px;
+        margin-top: 10px;
+        padding: 3px 10px;
+        border-radius: 0.5rem;
+      }
+    }
+  }
+ 
 }
